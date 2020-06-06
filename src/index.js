@@ -16,7 +16,7 @@ import * as serviceWorker from './serviceWorker'
 import './index.css'
 
 const App = () => (
-  <Router>
+  <Router basename='/witchhunt'>
     <Switch>
       <Route exact path='/'>
         <Home />
