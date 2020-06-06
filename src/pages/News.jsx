@@ -27,6 +27,21 @@ const News = () => {
         <h2 className='CenteredText'>News: </h2>
 
         <NewsBox>
+          <NewsDate>Posted 06-06-20 by Richard Marks</NewsDate>
+          <NewsBody>
+            After 12 years, WiTCHHUNT is being revived, and fully rewritten from the ground up using modern
+            C++17 code and SDL2 for cross-platform compatibility. The project is being made fully open source and is
+            available on Github.<br />
+            Some of the most important changes that are being made to this revival edition of the game are going to
+            allow anyone to enjoy this game and not get hung up on the original game's really poor control mechanisms.<br />
+            The original tools used to create the game content did not age well and will be engineered from the ground up to
+            allow the original content to be restored, revamped, and new content easily added to expand the game beyond the
+            game competition version.<br />
+            If you would like to be a part of this length process, please reach out to Richard Marks.
+          </NewsBody>
+        </NewsBox>
+
+        <NewsBox>
           <NewsDate>Posted 10-15-08 by Richard Marks</NewsDate>
           <NewsBody>
             With the vicious server attack behind us, we can now focus on the development of WitchHuntX.<br />
